@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 import http from "http";
-// import cors from "cors";
+import cors from "cors";
 import bodyParser from "body-parser";
 import morgan from "morgan";
 import dotenv from "dotenv";
@@ -15,6 +15,9 @@ app.use(morgan(":method :url :status  :response-time ms"));
 
 // parse application/json
 app.use(bodyParser.json());
+
+//using cors
+app.use(cors());
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
