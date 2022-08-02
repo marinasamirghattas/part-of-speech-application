@@ -78,7 +78,7 @@ const QuestionCard = (props: any) => {
         )}
       </CardBody>
       <p className="text-danger">
-        *Note that When you chose an answer you can't change it anymore
+        *Note that When you choose an answer you can't change it anymore
       </p>
       <Progress value={props.wordNum * 10} />
     </Card>
