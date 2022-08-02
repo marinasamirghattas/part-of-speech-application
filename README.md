@@ -16,7 +16,7 @@
  - every question need to click next button to navigate to next one 
  - after finishig 10 questions a button to show score and rank appeares instead of next button
  - when displaying your result there is an option to take the quiz again
- *ServerSide
+*ServerSide
   - end point to handle request from clint side to responde with words of questionnaire
   - function to randomize words
   - end point receives the score and responses with rank
