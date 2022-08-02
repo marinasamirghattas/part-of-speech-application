@@ -1,7 +1,7 @@
 # part-of-speech-application
 
 # Description
- - interactive activity using React.js, node.js, and Express.js that helps the students practice categorizing a set of words according to their part of speech
+ - interactive activity using React.js, node.js, Express.js with typeScript that helps the students practice categorizing a set of words according to their part of speech
  
  # Installation (for client and server)
  ```node
